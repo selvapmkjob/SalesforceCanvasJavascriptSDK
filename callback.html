@@ -5,6 +5,7 @@
 <script type="text/javascript">
     try {
         window.opener.Sfdc.canvas.oauth.childWindowUnloadNotification(self.location.hash);
+        console.log(window.opener.Sfdc.canvas.oauth.childWindowUnloadNotification(self.location.hash));
     } catch (ignore) {}
     self.close();
 </script>
